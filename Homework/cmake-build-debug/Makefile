@@ -123,32 +123,32 @@ Homework/fast:
 	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/build
 .PHONY : Homework/fast
 
-QuickSort.o: QuickSort.cpp.o
+MergeSort_2.o: MergeSort_2.cpp.o
 
-.PHONY : QuickSort.o
+.PHONY : MergeSort_2.o
 
 # target to build an object file
-QuickSort.cpp.o:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/QuickSort.cpp.o
-.PHONY : QuickSort.cpp.o
+MergeSort_2.cpp.o:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/MergeSort_2.cpp.o
+.PHONY : MergeSort_2.cpp.o
 
-QuickSort.i: QuickSort.cpp.i
+MergeSort_2.i: MergeSort_2.cpp.i
 
-.PHONY : QuickSort.i
+.PHONY : MergeSort_2.i
 
 # target to preprocess a source file
-QuickSort.cpp.i:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/QuickSort.cpp.i
-.PHONY : QuickSort.cpp.i
+MergeSort_2.cpp.i:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/MergeSort_2.cpp.i
+.PHONY : MergeSort_2.cpp.i
 
-QuickSort.s: QuickSort.cpp.s
+MergeSort_2.s: MergeSort_2.cpp.s
 
-.PHONY : QuickSort.s
+.PHONY : MergeSort_2.s
 
 # target to generate assembly for a file
-QuickSort.cpp.s:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/QuickSort.cpp.s
-.PHONY : QuickSort.cpp.s
+MergeSort_2.cpp.s:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/MergeSort_2.cpp.s
+.PHONY : MergeSort_2.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Homework"
-	@echo "... QuickSort.o"
-	@echo "... QuickSort.i"
-	@echo "... QuickSort.s"
+	@echo "... MergeSort_2.o"
+	@echo "... MergeSort_2.i"
+	@echo "... MergeSort_2.s"
 .PHONY : help
 
 
