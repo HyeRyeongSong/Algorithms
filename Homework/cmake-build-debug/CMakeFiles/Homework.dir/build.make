@@ -57,38 +57,38 @@ include CMakeFiles/Homework.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Homework.dir/flags.make
 
-CMakeFiles/Homework.dir/main.cpp.o: CMakeFiles/Homework.dir/flags.make
-CMakeFiles/Homework.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hyeryeongsong/Algorithms_2_2/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Homework.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Homework.dir/main.cpp.o -c /Users/hyeryeongsong/Algorithms_2_2/Homework/main.cpp
+CMakeFiles/Homework.dir/MergeSort_1.cpp.o: CMakeFiles/Homework.dir/flags.make
+CMakeFiles/Homework.dir/MergeSort_1.cpp.o: ../MergeSort_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hyeryeongsong/Algorithms_2_2/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Homework.dir/MergeSort_1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Homework.dir/MergeSort_1.cpp.o -c /Users/hyeryeongsong/Algorithms_2_2/Homework/MergeSort_1.cpp
 
-CMakeFiles/Homework.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Homework.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hyeryeongsong/Algorithms_2_2/Homework/main.cpp > CMakeFiles/Homework.dir/main.cpp.i
+CMakeFiles/Homework.dir/MergeSort_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Homework.dir/MergeSort_1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hyeryeongsong/Algorithms_2_2/Homework/MergeSort_1.cpp > CMakeFiles/Homework.dir/MergeSort_1.cpp.i
 
-CMakeFiles/Homework.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Homework.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hyeryeongsong/Algorithms_2_2/Homework/main.cpp -o CMakeFiles/Homework.dir/main.cpp.s
+CMakeFiles/Homework.dir/MergeSort_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Homework.dir/MergeSort_1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hyeryeongsong/Algorithms_2_2/Homework/MergeSort_1.cpp -o CMakeFiles/Homework.dir/MergeSort_1.cpp.s
 
-CMakeFiles/Homework.dir/main.cpp.o.requires:
+CMakeFiles/Homework.dir/MergeSort_1.cpp.o.requires:
 
-.PHONY : CMakeFiles/Homework.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/Homework.dir/MergeSort_1.cpp.o.requires
 
-CMakeFiles/Homework.dir/main.cpp.o.provides: CMakeFiles/Homework.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/Homework.dir/main.cpp.o.provides
+CMakeFiles/Homework.dir/MergeSort_1.cpp.o.provides: CMakeFiles/Homework.dir/MergeSort_1.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/MergeSort_1.cpp.o.provides.build
+.PHONY : CMakeFiles/Homework.dir/MergeSort_1.cpp.o.provides
 
-CMakeFiles/Homework.dir/main.cpp.o.provides.build: CMakeFiles/Homework.dir/main.cpp.o
+CMakeFiles/Homework.dir/MergeSort_1.cpp.o.provides.build: CMakeFiles/Homework.dir/MergeSort_1.cpp.o
 
 
 # Object files for target Homework
 Homework_OBJECTS = \
-"CMakeFiles/Homework.dir/main.cpp.o"
+"CMakeFiles/Homework.dir/MergeSort_1.cpp.o"
 
 # External object files for target Homework
 Homework_EXTERNAL_OBJECTS =
 
-Homework: CMakeFiles/Homework.dir/main.cpp.o
+Homework: CMakeFiles/Homework.dir/MergeSort_1.cpp.o
 Homework: CMakeFiles/Homework.dir/build.make
 Homework: CMakeFiles/Homework.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hyeryeongsong/Algorithms_2_2/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Homework"
@@ -99,7 +99,7 @@ CMakeFiles/Homework.dir/build: Homework
 
 .PHONY : CMakeFiles/Homework.dir/build
 
-CMakeFiles/Homework.dir/requires: CMakeFiles/Homework.dir/main.cpp.o.requires
+CMakeFiles/Homework.dir/requires: CMakeFiles/Homework.dir/MergeSort_1.cpp.o.requires
 
 .PHONY : CMakeFiles/Homework.dir/requires
 

@@ -123,32 +123,32 @@ Homework/fast:
 	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/build
 .PHONY : Homework/fast
 
-main.o: main.cpp.o
+MergeSort_1.o: MergeSort_1.cpp.o
 
-.PHONY : main.o
+.PHONY : MergeSort_1.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/main.cpp.o
-.PHONY : main.cpp.o
+MergeSort_1.cpp.o:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/MergeSort_1.cpp.o
+.PHONY : MergeSort_1.cpp.o
 
-main.i: main.cpp.i
+MergeSort_1.i: MergeSort_1.cpp.i
 
-.PHONY : main.i
+.PHONY : MergeSort_1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/main.cpp.i
-.PHONY : main.cpp.i
+MergeSort_1.cpp.i:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/MergeSort_1.cpp.i
+.PHONY : MergeSort_1.cpp.i
 
-main.s: main.cpp.s
+MergeSort_1.s: MergeSort_1.cpp.s
 
-.PHONY : main.s
+.PHONY : MergeSort_1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/main.cpp.s
-.PHONY : main.cpp.s
+MergeSort_1.cpp.s:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/MergeSort_1.cpp.s
+.PHONY : MergeSort_1.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Homework"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... MergeSort_1.o"
+	@echo "... MergeSort_1.i"
+	@echo "... MergeSort_1.s"
 .PHONY : help
 
 
