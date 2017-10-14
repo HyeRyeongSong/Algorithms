@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/hyeryeongsong/Algorithms_2_2/Homework/MergeSort_2.cpp">
+		<Unit filename="/Users/hyeryeongsong/Algorithms_2_2/Homework/QuickSort.cpp">
 			<Option target="Homework"/>
 		</Unit>
 		<Unit filename="/Users/hyeryeongsong/Algorithms_2_2/Homework/CMakeLists.txt">

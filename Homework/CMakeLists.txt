@@ -3,5 +3,5 @@ project(Homework)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES MergeSort_2.cpp)
+set(SOURCE_FILES QuickSort.cpp)
 add_executable(Homework ${SOURCE_FILES})
