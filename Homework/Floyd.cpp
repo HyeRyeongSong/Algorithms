@@ -3,67 +3,65 @@
 //
 #include<iostream>
 
+#define NUM 5
+
 using namespace std;
 
-int** P;
-int iNum;
+int P[NUM][NUM];
 
-void floyd(int n, int** W, int** D, int** P);
+void floyd(int n, int W[][NUM], int D[][NUM], int P[][NUM]);
 
 void path(int q, int r);
 
 int main()
 {
     int q, r;
-    cout << "Number for row & colums for square matrix: ";
-    cin >> iNum;
-    cout <<endl;
 
-    int** W = new int *[iNum];
-    int** D = new int *[iNum];
-    P = new int *[iNum];
+    int W[NUM][NUM];
+    int D[NUM][NUM];
 
-    for( int i = 0 ; i < iNum ; i++ )
-    {
-        W[i] = new int[iNum];
-        D[i] = new int[iNum];
-        P[i] = new int[iNum];
-    }
-
-    for(int i=0; i<iNum; ++i)
+    for(int i=0; i<NUM; ++i)
     {
         cout << "Input varibles for row number " << i+1 <<": ";
-        for(int j=0; j<iNum; ++j)
+        for(int j=0; j<NUM; ++j)
         {
             cin >> W[i][j];
         }
     }
 
-    floyd(iNum, W, D, P);
+    floyd(NUM, W, D, P);
 
-    cout << "Input 'starting point' number: ";
+    cout << "D =" << endl;
+
+    for(int i=0; i<NUM; ++i) {
+        for (int j = 0; j < NUM; ++j)
+            cout << D[i][j] << " ";
+        cout << endl;
+    }
+
+    cout << "\nP =" <<endl;
+
+    for(int i=0; i<NUM; ++i) {
+        for (int j = 0; j < NUM; ++j)
+            cout << P[i][j] << " ";
+        cout << endl;
+    }
+
+
+    cout << "\nInput 'starting point' number: ";
     cin >> q;
 
     cout << "Input 'destination' number: ";
     cin >> r;
 
+    cout << endl;
+
     path(q, r);
-
-    for( int i = 0 ; i < iNum ; i++ )
-    {
-        delete[] W[i];
-        delete[] D[i];
-        delete[] P[i];
-    }
-    delete [] W;
-    delete [] D;
-    delete [] P;
-
 
     return 0;
 }
 
-void floyd(int n, int** W, int** D, int** P) //const int** W 값 어떻게..?ㅠㅠ
+void floyd(int n, int W[][NUM], int D[][NUM], int P[][NUM]) //const int** W 값 어떻게..?ㅠㅠ
 {
     for(int i=0; i<n; ++i)
     {
@@ -73,7 +71,7 @@ void floyd(int n, int** W, int** D, int** P) //const int** W 값 어떻게..?ㅠ
         }
     }
 
-    copy(&(W[0][0]), &(W[0][0])+iNum*iNum,&(D[0][0]));
+    copy(&(W[0][0]), &(W[0][0])+NUM*NUM,&(D[0][0]));
 
     for(int k=0; k<n; ++k)
     {
@@ -83,7 +81,7 @@ void floyd(int n, int** W, int** D, int** P) //const int** W 값 어떻게..?ㅠ
             {
                 if(D[i][k] + D[k][j] < D[i][j])
                 {
-                    P[i][j] = k;
+                    P[i][j] = k + 1;
                     D[i][j] = D[i][k] + D[k][j];
                 }
             }
@@ -92,12 +90,12 @@ void floyd(int n, int** W, int** D, int** P) //const int** W 값 어떻게..?ㅠ
 
 }
 
-void path(int q, int r) //const int** P 값 어떻게..?ㅠㅠ
+void path(int q, int r)
 {
-    if(P[q][r] != 0)
+    if(P[q-1][r-1] != 0)
     {
-        path(q, P[q][r]);
-        cout << " v" << P[q][r];
-        path(P[q][r], r);
+        path(q, P[q-1][r-1]);
+        cout << " v" << P[q-1][r-1];
+        path(P[q-1][r-1], r);
     }
 }
