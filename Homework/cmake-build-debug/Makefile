@@ -123,32 +123,32 @@ Homework/fast:
 	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/build
 .PHONY : Homework/fast
 
-QuickSort.o: QuickSort.cpp.o
+Floyd.o: Floyd.cpp.o
 
-.PHONY : QuickSort.o
+.PHONY : Floyd.o
 
 # target to build an object file
-QuickSort.cpp.o:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/QuickSort.cpp.o
-.PHONY : QuickSort.cpp.o
+Floyd.cpp.o:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/Floyd.cpp.o
+.PHONY : Floyd.cpp.o
 
-QuickSort.i: QuickSort.cpp.i
+Floyd.i: Floyd.cpp.i
 
-.PHONY : QuickSort.i
+.PHONY : Floyd.i
 
 # target to preprocess a source file
-QuickSort.cpp.i:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/QuickSort.cpp.i
-.PHONY : QuickSort.cpp.i
+Floyd.cpp.i:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/Floyd.cpp.i
+.PHONY : Floyd.cpp.i
 
-QuickSort.s: QuickSort.cpp.s
+Floyd.s: Floyd.cpp.s
 
-.PHONY : QuickSort.s
+.PHONY : Floyd.s
 
 # target to generate assembly for a file
-QuickSort.cpp.s:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/QuickSort.cpp.s
-.PHONY : QuickSort.cpp.s
+Floyd.cpp.s:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/Floyd.cpp.s
+.PHONY : Floyd.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Homework"
-	@echo "... QuickSort.o"
-	@echo "... QuickSort.i"
-	@echo "... QuickSort.s"
+	@echo "... Floyd.o"
+	@echo "... Floyd.i"
+	@echo "... Floyd.s"
 .PHONY : help
 
 
