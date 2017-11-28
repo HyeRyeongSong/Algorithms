@@ -123,32 +123,32 @@ Homework/fast:
 	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/build
 .PHONY : Homework/fast
 
-Floyd.o: Floyd.cpp.o
+Kruskal.o: Kruskal.cpp.o
 
-.PHONY : Floyd.o
+.PHONY : Kruskal.o
 
 # target to build an object file
-Floyd.cpp.o:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/Floyd.cpp.o
-.PHONY : Floyd.cpp.o
+Kruskal.cpp.o:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/Kruskal.cpp.o
+.PHONY : Kruskal.cpp.o
 
-Floyd.i: Floyd.cpp.i
+Kruskal.i: Kruskal.cpp.i
 
-.PHONY : Floyd.i
+.PHONY : Kruskal.i
 
 # target to preprocess a source file
-Floyd.cpp.i:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/Floyd.cpp.i
-.PHONY : Floyd.cpp.i
+Kruskal.cpp.i:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/Kruskal.cpp.i
+.PHONY : Kruskal.cpp.i
 
-Floyd.s: Floyd.cpp.s
+Kruskal.s: Kruskal.cpp.s
 
-.PHONY : Floyd.s
+.PHONY : Kruskal.s
 
 # target to generate assembly for a file
-Floyd.cpp.s:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/Floyd.cpp.s
-.PHONY : Floyd.cpp.s
+Kruskal.cpp.s:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/Kruskal.cpp.s
+.PHONY : Kruskal.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Homework"
-	@echo "... Floyd.o"
-	@echo "... Floyd.i"
-	@echo "... Floyd.s"
+	@echo "... Kruskal.o"
+	@echo "... Kruskal.i"
+	@echo "... Kruskal.s"
 .PHONY : help
 
 

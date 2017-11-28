@@ -3,5 +3,5 @@ project(Homework)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES Floyd.cpp)
+set(SOURCE_FILES Kruskal.cpp)
 add_executable(Homework ${SOURCE_FILES})
