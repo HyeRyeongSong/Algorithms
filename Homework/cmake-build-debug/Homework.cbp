@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/hyeryeongsong/Algorithms_2_2/Homework/Kruskal.cpp">
+		<Unit filename="/Users/hyeryeongsong/Algorithms_2_2/Homework/GraphColoring.cpp">
 			<Option target="Homework"/>
 		</Unit>
 		<Unit filename="/Users/hyeryeongsong/Algorithms_2_2/Homework/CMakeLists.txt">

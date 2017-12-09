@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/hyeryeongsong/Algorithms_2_2/Homework/Kruskal.cpp" "/Users/hyeryeongsong/Algorithms_2_2/Homework/cmake-build-debug/CMakeFiles/Homework.dir/Kruskal.cpp.o"
+  "/Users/hyeryeongsong/Algorithms_2_2/Homework/GraphColoring.cpp" "/Users/hyeryeongsong/Algorithms_2_2/Homework/cmake-build-debug/CMakeFiles/Homework.dir/GraphColoring.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -123,32 +123,32 @@ Homework/fast:
 	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/build
 .PHONY : Homework/fast
 
-Kruskal.o: Kruskal.cpp.o
+GraphColoring.o: GraphColoring.cpp.o
 
-.PHONY : Kruskal.o
+.PHONY : GraphColoring.o
 
 # target to build an object file
-Kruskal.cpp.o:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/Kruskal.cpp.o
-.PHONY : Kruskal.cpp.o
+GraphColoring.cpp.o:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/GraphColoring.cpp.o
+.PHONY : GraphColoring.cpp.o
 
-Kruskal.i: Kruskal.cpp.i
+GraphColoring.i: GraphColoring.cpp.i
 
-.PHONY : Kruskal.i
+.PHONY : GraphColoring.i
 
 # target to preprocess a source file
-Kruskal.cpp.i:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/Kruskal.cpp.i
-.PHONY : Kruskal.cpp.i
+GraphColoring.cpp.i:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/GraphColoring.cpp.i
+.PHONY : GraphColoring.cpp.i
 
-Kruskal.s: Kruskal.cpp.s
+GraphColoring.s: GraphColoring.cpp.s
 
-.PHONY : Kruskal.s
+.PHONY : GraphColoring.s
 
 # target to generate assembly for a file
-Kruskal.cpp.s:
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/Kruskal.cpp.s
-.PHONY : Kruskal.cpp.s
+GraphColoring.cpp.s:
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/GraphColoring.cpp.s
+.PHONY : GraphColoring.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Homework"
-	@echo "... Kruskal.o"
-	@echo "... Kruskal.i"
-	@echo "... Kruskal.s"
+	@echo "... GraphColoring.o"
+	@echo "... GraphColoring.i"
+	@echo "... GraphColoring.s"
 .PHONY : help
 
 

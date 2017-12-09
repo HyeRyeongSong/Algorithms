@@ -57,38 +57,38 @@ include CMakeFiles/Homework.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Homework.dir/flags.make
 
-CMakeFiles/Homework.dir/Kruskal.cpp.o: CMakeFiles/Homework.dir/flags.make
-CMakeFiles/Homework.dir/Kruskal.cpp.o: ../Kruskal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hyeryeongsong/Algorithms_2_2/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Homework.dir/Kruskal.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Homework.dir/Kruskal.cpp.o -c /Users/hyeryeongsong/Algorithms_2_2/Homework/Kruskal.cpp
+CMakeFiles/Homework.dir/GraphColoring.cpp.o: CMakeFiles/Homework.dir/flags.make
+CMakeFiles/Homework.dir/GraphColoring.cpp.o: ../GraphColoring.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hyeryeongsong/Algorithms_2_2/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Homework.dir/GraphColoring.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Homework.dir/GraphColoring.cpp.o -c /Users/hyeryeongsong/Algorithms_2_2/Homework/GraphColoring.cpp
 
-CMakeFiles/Homework.dir/Kruskal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Homework.dir/Kruskal.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hyeryeongsong/Algorithms_2_2/Homework/Kruskal.cpp > CMakeFiles/Homework.dir/Kruskal.cpp.i
+CMakeFiles/Homework.dir/GraphColoring.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Homework.dir/GraphColoring.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hyeryeongsong/Algorithms_2_2/Homework/GraphColoring.cpp > CMakeFiles/Homework.dir/GraphColoring.cpp.i
 
-CMakeFiles/Homework.dir/Kruskal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Homework.dir/Kruskal.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hyeryeongsong/Algorithms_2_2/Homework/Kruskal.cpp -o CMakeFiles/Homework.dir/Kruskal.cpp.s
+CMakeFiles/Homework.dir/GraphColoring.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Homework.dir/GraphColoring.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hyeryeongsong/Algorithms_2_2/Homework/GraphColoring.cpp -o CMakeFiles/Homework.dir/GraphColoring.cpp.s
 
-CMakeFiles/Homework.dir/Kruskal.cpp.o.requires:
+CMakeFiles/Homework.dir/GraphColoring.cpp.o.requires:
 
-.PHONY : CMakeFiles/Homework.dir/Kruskal.cpp.o.requires
+.PHONY : CMakeFiles/Homework.dir/GraphColoring.cpp.o.requires
 
-CMakeFiles/Homework.dir/Kruskal.cpp.o.provides: CMakeFiles/Homework.dir/Kruskal.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/Kruskal.cpp.o.provides.build
-.PHONY : CMakeFiles/Homework.dir/Kruskal.cpp.o.provides
+CMakeFiles/Homework.dir/GraphColoring.cpp.o.provides: CMakeFiles/Homework.dir/GraphColoring.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Homework.dir/build.make CMakeFiles/Homework.dir/GraphColoring.cpp.o.provides.build
+.PHONY : CMakeFiles/Homework.dir/GraphColoring.cpp.o.provides
 
-CMakeFiles/Homework.dir/Kruskal.cpp.o.provides.build: CMakeFiles/Homework.dir/Kruskal.cpp.o
+CMakeFiles/Homework.dir/GraphColoring.cpp.o.provides.build: CMakeFiles/Homework.dir/GraphColoring.cpp.o
 
 
 # Object files for target Homework
 Homework_OBJECTS = \
-"CMakeFiles/Homework.dir/Kruskal.cpp.o"
+"CMakeFiles/Homework.dir/GraphColoring.cpp.o"
 
 # External object files for target Homework
 Homework_EXTERNAL_OBJECTS =
 
-Homework: CMakeFiles/Homework.dir/Kruskal.cpp.o
+Homework: CMakeFiles/Homework.dir/GraphColoring.cpp.o
 Homework: CMakeFiles/Homework.dir/build.make
 Homework: CMakeFiles/Homework.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/hyeryeongsong/Algorithms_2_2/Homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Homework"
@@ -99,7 +99,7 @@ CMakeFiles/Homework.dir/build: Homework
 
 .PHONY : CMakeFiles/Homework.dir/build
 
-CMakeFiles/Homework.dir/requires: CMakeFiles/Homework.dir/Kruskal.cpp.o.requires
+CMakeFiles/Homework.dir/requires: CMakeFiles/Homework.dir/GraphColoring.cpp.o.requires
 
 .PHONY : CMakeFiles/Homework.dir/requires
 
